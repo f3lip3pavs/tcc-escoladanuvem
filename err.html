@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+    <title>Oops!</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-size: 70px;
+        }
+
+        .spin {
+            animation: rotateLoop 4s linear infinite;
+            float: left;
+            margin-right: 30px;
+            margin-bottom: 10px;
+        }
+
+        @keyframes rotateLoop {
+                0% {
+                    transform: translateY(0);
+                }
+
+                50% {
+                    transform: translateY(-2.4rem);
+                }
+
+                100% {
+                    transform: translateY(0);
+                }
+
+            }
+
+            .container {
+                width: 80%;
+                margin: auto;
+                margin-top: 50px;
+            }
+
+            ul {
+                list-style: none;
+                font-family: 'Lato', sans-serif;
+                margin-left: 100px;
+            }
+
+            ul li {
+                margin-top: 5px;
+            }
+
+            h3 {
+                font-family: 'Lato', sans-serif;
+                margin-left: 50px;
+                margin-bottom: 25px;
+                margin-top: 30px;
+            }
+
+            header {
+                height: 20%;
+                max-width: 100%;
+                background-color: white;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+
+            header img {
+                width: 15%;
+                float: left;
+            }
+
+            h2 {
+                color: black;
+                margin-top: 10px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 100;
+            }
+
+            .ul-list {
+                display: flex;
+                list-style: none;
+                color: black;
+                margin-bottom: 0;
+                font-family: 'Lato', sans-serif;
+            }
+
+            .ul-list li {
+                margin-right: 20px;
+            }
+
+            footer {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                width: 100%;
+                background-color: #96D4E0;
+
+            }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        
+        <ul class="ul-list">
+            <li style="margin-top: 10%">Home</li>
+            <li style="margin-top: 10%">Contact us</li>
+            <li style="margin-top: 10%">Currículos</li>
+        </ul>
+    </header>
+
+    <div class="container">
+
+        <img class="spin" src="images/cloud_noBg.png" alt="">
+        <h1>Oops! O estagiário tropeçou no cabo.</h1>
+    </div>
+
+    <div class="container">
+        <h3>Recarrege a pagino e tente acessar a home novamente!</h2>
+    </div>
+
+</body>
+
+</html>
